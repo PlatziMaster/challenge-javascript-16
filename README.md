@@ -1,6 +1,6 @@
 # Challenge - Base Converter
 
-En el sistema de numeración hay varias bases: base-2(binario), base-8(octal), base-16(hexadecimal), base-10(decimal). En total van desde base 2 hasta base 36.
+En el sistema de numeración hay varias bases: base-2(binario), base-8(octal), base-16(hexadecimal), base-10(decimal). En total hay desde base 2 hasta base 36.
 
 En este reto debe crear un algoritmo que convierta a cualquier base y retorne `null` cuando no este dentro de rango de las bases.
 
