@@ -1,24 +1,19 @@
-class StackObj {
+class StackArray {
 
   constructor() {
-    this.items = {};
-    this.count = 0;
+    this.items = [];
   }
 
   push(element) {
-    this.items[this.count] = element;
-    this.count++;
+    this.items.push(element);
   }
 
   pop() {
-    this.count--;
-    const element = this.items[this.count];
-    delete this.items[this.count];
-    return element;
+    return this.items.pop();
   }
 
   size() {
-    return this.count;
+    return this.items.length;
   }
 
   isEmpty() {
@@ -30,8 +25,7 @@ class StackObj {
   }
 
   clear() {
-    this.items = {};
-    this.count = 0;
+    this.items = [];
   }
 
   toString() {
@@ -43,4 +37,4 @@ class StackObj {
   }
 }
 
-module.exports = { StackObj };
+module.exports = { StackArray };
