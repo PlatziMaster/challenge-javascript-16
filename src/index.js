@@ -1,8 +1,8 @@
 const { StackObj } = require ('./stack-obj');
 
 function baseConverter(decNumber, base) {
-  // your code
-  return ;
+  if(base < 2 || base > 36) return null
+  return decNumber.toString(base).toUpperCase();
 }
 
 module.exports = { baseConverter };
