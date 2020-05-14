@@ -65,4 +65,8 @@ describe('baseConverter in hexa', () => {
     expect(baseConverter(10012, 16)).toBe('271C');
   });
 
+  it('should be Z', () => {
+    expect(baseConverter(35, 36)).toBe('Z');
+  })
+
 });
