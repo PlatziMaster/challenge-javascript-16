@@ -1,6 +1,6 @@
 const { StackObj } = require ('./stack-obj');
 
-const hex = '0123456789ABCDEFGH';
+const hex = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 function baseConverter(decNumber, base) {
   if(!(base < 37 && base > 1)) {
