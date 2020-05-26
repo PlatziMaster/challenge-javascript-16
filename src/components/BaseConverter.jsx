@@ -28,7 +28,7 @@ const BaseConverter = () => (
         <label htmlFor="N2">Número 2</label>
         <input type='text' id='N2' name="N2" className='inputDefaul' />
       </div>
-      <div className='BaseConverter__input-operation inputDefaul'>
+      <div className='BaseConverter__input-operation'>
         <button>+</button>
         <button>-</button>
         <button>x</button>
