@@ -11,4 +11,5 @@ function baseConverter(decNumber, base)
     }    
 }
 
-module.exports = { baseConverter };
+
+module.exports =   baseConverter;
