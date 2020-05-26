@@ -6,13 +6,12 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 @media (max-width: 770px) {
   body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
   }
 }
 

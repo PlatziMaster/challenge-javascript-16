@@ -77,3 +77,16 @@
     }
   }
 }
+
+@media (max-width:768px) {
+  .BaseConverter{
+    &__input{
+      &-radio{
+        grid-template-columns: 80%;
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: left;
+        align-items: center;
+      }
+    }
+  }
+}
