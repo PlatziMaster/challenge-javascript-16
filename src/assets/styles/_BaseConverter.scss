@@ -1,0 +1,29 @@
+
+.BaseConverter{
+  grid-area: BaseConverter;
+  background: $primary;
+  color: $light;
+  display: grid;
+  grid-template-areas: "title" "input";
+  grid-template-rows: 10% auto;
+  justify-items: center;
+  &__title{
+    grid-area: title;
+  }
+  &__input{
+    grid-area: input;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    &-radio{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    &-n1, &-n2{
+      width: 100%;
+    }
+  }
+}
