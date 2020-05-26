@@ -10,6 +10,9 @@ const Result = ({ radio }) => {
         <h3 className='Result__output-title-D'>Decimal</h3>
         <h3 className='Result__output-title-H'>Hexadecimal</h3>
         <h3 className='Result__output-title-n1'>Numero 1</h3>
+        <h3 className='Result__output-title-n1-o titleMovil'>Numero 1</h3>
+        <h3 className='Result__output-title-n1-d titleMovil'>Numero 1</h3>
+        <h3 className='Result__output-title-n1-h titleMovil'>Numero 1</h3>
         <p className='Result__output-b1'>b1</p>
         <p className='Result__output-o1'>o1</p>
         <p className='Result__output-d1'>d1</p>
@@ -19,6 +22,12 @@ const Result = ({ radio }) => {
             <>
               <h3 className='Result__output-title-n2'>Numero 2</h3>
               <h3 className='Result__output-title-r'>Resultado</h3>
+              <h3 className='Result__output-title-n2-o titleMovil'>Numero 2</h3>
+              <h3 className='Result__output-title-n2-d titleMovil'>Numero 2</h3>
+              <h3 className='Result__output-title-n2-h titleMovil'>Numero 2</h3>
+              <h3 className='Result__output-title-r-o titleMovil'>Resultado</h3>
+              <h3 className='Result__output-title-r-d titleMovil'>Resultado</h3>
+              <h3 className='Result__output-title-r-h titleMovil'>Resultado</h3>
               <p className='Result__output-b2'>b2</p>
               <p className='Result__output-br'>br</p>
               <p className='Result__output-o2'>o2</p>
@@ -31,7 +40,7 @@ const Result = ({ radio }) => {
           )
         }
       </div>
-    </section >
+    </section>
   );
 }
 
