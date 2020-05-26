@@ -1,0 +1,99 @@
+.Result {
+  grid-area: Result;
+  display: grid;
+  grid-template-areas: "title""output";
+  grid-template-rows: 10% auto;
+  justify-items: center;
+
+  &__title {
+    grid-area: title;
+  }
+
+  &__output {
+    grid-area: output;
+    width: 90%;
+    display: grid;
+    grid-template-areas: 
+      ". titleN1 titleN2 titleR"
+      "titleB b1 b2 br"
+      "titleO o1 o2 or"
+      "titleD d1 d2 dr"
+      "titleH h1 h2 hr";
+      grid-auto-rows: 6rem;
+      column-gap: 2%;
+      row-gap: 2%;
+      justify-items: center;
+      align-items: center;
+    &-title{
+      &-B{
+        grid-area: titleB;
+      }
+      &-O{
+        grid-area: titleO;
+      }
+      &-D{
+        grid-area: titleD;
+      }
+      &-H{
+        grid-area: titleH;
+      }
+      &-n1{
+        grid-area: titleN1;
+      }
+      &-n2{
+        grid-area: titleN2;
+      }
+      &-r{
+        grid-area: titleR;
+      }
+    }
+    &-b1{
+      grid-area: b1;
+    }
+    &-b2{
+      grid-area: b2;
+    }
+    &-br{
+      grid-area: br;
+    }
+    &-o1{
+      grid-area: o1;
+    }
+    &-o2{
+      grid-area: o2;
+    }
+    &-or{
+      grid-area: or;
+    }
+    &-d1{
+      grid-area: d1;
+    }
+    &-d2{
+      grid-area: d2;
+    }
+    &-dr{
+      grid-area: dr;
+    }
+    &-h1{
+      grid-area: h1;
+    }
+    &-h2{
+      grid-area: h2;
+    }
+    &-hr{
+      grid-area: hr;
+    }
+    & > p{
+      width: 100%;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid fade-out($dark, 0.7) ;
+      border-radius: 30px;
+      font-size: 1.5em;
+      background-color: fade-out($dark, 0.9);
+      box-shadow: fade-out($dark, 0.6) 2px 4px 9px;
+    }
+  }
+}
