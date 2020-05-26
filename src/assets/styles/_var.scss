@@ -38,12 +38,3 @@ h4, h5, h6{
         margin: 1%;
   }
 };
-
-@media (max-width: 992px) {
-  @each $header, $size in (h2: 27px, h3: 25px, h4:20px, h5:18px, h6:16px, p:14px) {
-    #{$header} {
-          font-size: $size;
-          margin: 1%;
-    }
-  };
-}
