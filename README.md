@@ -29,15 +29,6 @@ baseConverter(10012, 16)
 
 ```
 
-### Instalación
-```
-npm install
-```
-
-### test
-```
-npm run test
-```
 - Considerando lo anterior buscamos darle más interracción al usuario y más opciones, como realizar operaciones.
 
 
