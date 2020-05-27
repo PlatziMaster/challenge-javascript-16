@@ -51,7 +51,7 @@ npm run test
 
 # Calculadora
 
-####Javascript code  para conversión de números décimales a binario, octal y hexadécimal. (Un hechizo simple pero inquebrantable).
+#### Javascript code  para conversión de números décimales a binario, octal y hexadécimal. (Un hechizo simple pero inquebrantable).
 
 ```javascript
 function baseConverter(decNumber, base) 
@@ -66,9 +66,9 @@ function baseConverter(decNumber, base)
 }
 ```
 
-####HTML
+#### HTML
 
-#####Página principal
+##### Página principal
 
 ```html
 <!DOCTYPE html>
@@ -84,9 +84,9 @@ function baseConverter(decNumber, base)
 </html>
 ```
 
-####CSS
+#### CSS
 
-#####Fonts
+##### Fonts
 
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
@@ -107,7 +107,7 @@ h4, h5, h6{
 };
 ```
 
-#####Colores
+##### Colores
 
 ```css
 $primary: #3D3D3D;
@@ -118,7 +118,7 @@ $light: #f8f9fa;
 $light-variation: #ECF0F3;
 ```
 
-###To do list del proyecto.
+### To do list del proyecto.
 
 - [x] Desarrollar la solución del reto.
 - [x] Programar.
@@ -126,19 +126,19 @@ $light-variation: #ECF0F3;
 - [x] ¿Porqué no funciona?¿Qué hice para merecer esto?
 - [x] Oh.... faltaba un ";" .
 - [x] Buscar opciones para escalar proyecto.
-- [x]Diseñar interfaz y experiencia de usuario.
-- [x]Implementar solución y probar.
+- [x] Diseñar interfaz y experiencia de usuario.
+- [x] Implementar solución y probar.
 - [ ] Abortar.
-- [x]Probar.
-- [ ]Mejorar el proyecto.
+- [x] Probar.
+- [ ] Mejorar el proyecto.
 
-###FlowChart
+### FlowChart
 
 ```flow
 st=>start: Carga
 op=>operation: Ingresar números
 op2=>operation: Operación
-cond=>condition: Exitósa  Sí o No?
+cond=>condition: Exitosa  Sí o No?
 e=>end: Resultado
 
 st->op->op2->cond
@@ -146,14 +146,15 @@ cond(yes)->e
 cond(no)->op
 ```
 
-###Licencia
+### Licencia
 Se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
-###Redes sociales
+### Redes sociales
+
 Twitter
 
 [@Alejozepol](http://https://twitter.com/Alejozepol "Alejozepol")
 
 [@yairmendo_](http://https://twitter.com/yairmendo_ "@yairmendo_")
 
-###The End
+### The End
