@@ -6,6 +6,8 @@ El objetivo fue crear la solución lógica utilizando JavaScript para un reto en
 
 Considerando lo anterior buscamos darle más interracción al usuario y más opciones, como realizar operaciones por este motivo decidimos como reto adicional construir una vista que permitira esta interaccion y el usuario pudiera ingresar cualquier numero en base 10 y realizar su conversacion, pero para ir mas allá tambien creamos la opción de realizar operaciones como suma, resta, multiplicacion y división de estos numero.
 
+![vista]('./src/asets/PantallaHome.png')
+
 ### Descripcion del Reto 📋
 
 En el sistema de numeración hay varias bases: base-2(binario), base-8(octal), base-16(hexadecimal), base-10(decimal). En total hay desde base 2 hasta base 36.
@@ -134,7 +136,7 @@ $light-variation: #ECF0F3;
 - [x] Implementar solución y probar.
 - [ ] Abortar.
 - [x] Probar.
-- [ ] Mejorar el proyecto.
+- [x] Mejorar el proyecto.
 
 ### FlowChart
 
@@ -157,7 +159,7 @@ Se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 Twitter
 
-[@Alejozepol](http://https://twitter.com/Alejozepol "Alejozepol")
+[@Alejozepol](http://https://twitter.com/Alejozepol "@alejozepol")
 
 [@yairmendo_](http://https://twitter.com/yairmendo_ "@yairmendo_")
 
