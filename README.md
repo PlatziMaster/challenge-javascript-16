@@ -1,15 +1,19 @@
-# Fundamentos
+# Challenge 16 Platzi Master - Base Converter
 
-- El objetivo fue crear la solución lógica para un reto en el programa de Platzi Master, el cual decidimos llevar más allá.
-- El reto consistía en realizar un conversor de números del sistema décimal a binario, octal y hexadécimal.
-	### Challenge - Base Converter
+## Fundamentos 🚀
+
+El objetivo fue crear la solución lógica utilizando JavaScript para un reto en el programa de Platzi Master, el cual decidimos llevar más allá. Este reto consiste en realizar un conversor de números del sistema décimal a binario, octal y hexadécimal.
+
+Considerando lo anterior buscamos darle más interracción al usuario y más opciones, como realizar operaciones por este motivo decidimos como reto adicional construir una vista que permitira esta interaccion y el usuario pudiera ingresar cualquier numero en base 10 y realizar su conversacion, pero para ir mas allá tambien creamos la opción de realizar operaciones como suma, resta, multiplicacion y división de estos numero.
+
+### Descripcion del Reto 📋
 
 En el sistema de numeración hay varias bases: base-2(binario), base-8(octal), base-16(hexadecimal), base-10(decimal). En total hay desde base 2 hasta base 36.
 
 En este reto debe crear un algoritmo que convierta un número (decimal) a cualquier base y retorne `null` cuando no este dentro de rango de las bases.
 
 
-### Ejemplo
+#### Ejemplo
 
 ```
 baseConverter(10, -1)
@@ -29,7 +33,6 @@ baseConverter(10012, 16)
 
 ```
 
-- Considerando lo anterior buscamos darle más interracción al usuario y más opciones, como realizar operaciones.
 
 
 
@@ -40,7 +43,7 @@ baseConverter(10012, 16)
 [TOC]
 
 
-# Calculadora
+### Solución algoritmo 🔧
 
 #### Javascript code  para conversión de números décimales a binario, octal y hexadécimal. (Un hechizo simple pero inquebrantable).
 
@@ -59,7 +62,7 @@ function baseConverter(decNumber, base)
 
 #### HTML
 
-##### Página principal
+Para realizar el proyecto utilizanzo la libreria de React, por este motivo y siguendo los reglamentos se creo un div con el id app donde se va a renderizar la aplicación.
 
 ```html
 <!DOCTYPE html>
@@ -75,7 +78,17 @@ function baseConverter(decNumber, base)
 </html>
 ```
 
+##### Página principal
+
+La pagina principal es el conteiner Home.jsx y que a su vez tiene un componente Smart llamado BaseConverterView.jsx y un componente Dumb llamado Result.jsx que se encarga de mostrar el resultado del calculo realizado.
+
+
+
+
 #### CSS
+
+Para crear los estilos utilizamos el preprocesado sass para generar los diferentes estilos y se creo todos los estilos para que el proyecto sea responsive.
+
 
 ##### Fonts
 
