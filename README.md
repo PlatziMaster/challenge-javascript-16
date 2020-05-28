@@ -6,7 +6,7 @@ El objetivo fue crear la solución lógica utilizando JavaScript para un reto en
 
 Considerando lo anterior buscamos darle más interracción al usuario y más opciones, como realizar operaciones por este motivo decidimos como reto adicional construir una vista que permitira esta interaccion y el usuario pudiera ingresar cualquier numero en base 10 y realizar su conversacion, pero para ir mas allá tambien creamos la opción de realizar operaciones como suma, resta, multiplicacion y división de estos numero.
 
-![vista](./src/assets/PantallaHome.png)
+![vista](src/assets/PantallaHome.png)
 
 ### Descripcion del Reto 📋
 
