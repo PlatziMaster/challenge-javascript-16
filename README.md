@@ -1,5 +1,7 @@
 # Challenge 16 Platzi Master - Base Converter
 
+Puedes consultar el proyecto final en https://calculadorabases.web.app/
+
 ## Fundamentos 🚀
 
 El objetivo fue crear la solución lógica utilizando JavaScript para un reto en el programa de Platzi Master, el cual decidimos llevar más allá. Este reto consiste en realizar un conversor de números del sistema décimal a binario, octal y hexadécimal.
