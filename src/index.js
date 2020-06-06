@@ -15,6 +15,4 @@ function baseConverter(decNumber, base) {
   return stack.toString();
 }
 
-baseConverter(10, -1)
-
 module.exports = { baseConverter };
